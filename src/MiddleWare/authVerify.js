@@ -1,4 +1,4 @@
-const {DecodeToken} = require("../Helper/TokenHelper");
+const {DecodeToken} = require("../Helper/TokenHelper.js");
 module.exports=(req,res,next)=>{
 
     // Receive Token

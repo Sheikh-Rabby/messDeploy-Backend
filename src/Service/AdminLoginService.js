@@ -1,6 +1,6 @@
- const adminModel=require('../model/AdminModel')
- const UserModel = require("../model/UserModel");
-const {EncodeToken}=require('../Helper/TokenHelper')
+ const adminModel=require('../model/AdminModel.js')
+ const UserModel = require("../model/UserModel.js");
+const {EncodeToken}=require('../Helper/TokenHelper.js')
 
  const AdminSignUpService=async (req,res)=>{
 

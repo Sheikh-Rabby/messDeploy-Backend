@@ -1,5 +1,5 @@
-const UserModel = require('../model/UserModel');
-const BazarModel = require('../model/BazarModel');
+const UserModel = require('../model/UserModel.js');
+const BazarModel = require('../model/BazarModel.js');
  const mongoose=require('mongoose')
 
 const updateMealService = async (req, res) => {

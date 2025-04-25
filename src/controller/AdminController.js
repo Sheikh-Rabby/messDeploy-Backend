@@ -1,5 +1,5 @@
-const {updateMealService,UpdatePaidAmount,findUserService,calculateTotalPaidAmount,userTotalDetails,totalBazarDetails,userTotalDetailsById,bazarFound,bazarFoundById } =require("../Service/AdminService")
-const {AdminSignUpService,AdminLoginService}=require("../Service/AdminLoginService")
+const {updateMealService,UpdatePaidAmount,findUserService,calculateTotalPaidAmount,userTotalDetails,totalBazarDetails,userTotalDetailsById,bazarFound,bazarFoundById } =require("../Service/AdminService.js")
+const {AdminSignUpService,AdminLoginService}=require("../Service/AdminLoginService.js")
 
 
 exports.updateMeal=async (req, res) => {

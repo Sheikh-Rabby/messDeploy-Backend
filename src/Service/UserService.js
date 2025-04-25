@@ -1,6 +1,6 @@
-const UserModel = require('../model/UserModel');
-const {EncodeToken}=require('../Helper/TokenHelper')
-const BazarModel = require("../model/BazarModel");
+const UserModel = require('../model/UserModel.js');
+const {EncodeToken}=require('../Helper/TokenHelper.js')
+const BazarModel = require("../model/BazarModel.js");
 const mongoose = require("mongoose");
 
 const createUserProfileService = async (req, res) => {

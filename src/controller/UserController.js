@@ -1,4 +1,4 @@
- const{createUserProfileService,userLoginService,userFindById,Datareset}=require('../Service/UserService');
+ const{createUserProfileService,userLoginService,userFindById,Datareset}=require('../Service/UserService.js');
 
  exports.createUserProfile=async (req, res) => {
     let result=await createUserProfileService(req)
